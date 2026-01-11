@@ -130,7 +130,7 @@
 
       // Password-protected click on the main photo
       var PASSWORD = 'ARSB2026';
-      var discordURL = 'https://coddernessie.github.io/ARSBArchives/';
+      var archivesURL = 'https://coddernessie.github.io/ARSBArchives/';
       var main = document.getElementById('main-photo');
       if (main) {
         function closeSite() {
@@ -167,7 +167,7 @@
         function askPasswordAndAct() {
           var answer = prompt('Enter password:');
           if (answer === PASSWORD) {
-            window.location.href = discordURL;
+            window.location.href = archivesURL;
           } else {
             closeSite();
           }
@@ -184,6 +184,7 @@
   </script>
 </body>
 </html>
+
 
 
 
