@@ -129,7 +129,7 @@
       });
 
       // Password-protected click on the main photo
-      var PASSWORD = 'ARSB2026domain';
+      var ARSBPASSWORD = 'ARSB2026dmain';
       var archivesURL = 'https://coddernessie.github.io/ARSBArchives/';
       var main = document.getElementById('main-photo');
       if (main) {
@@ -166,7 +166,7 @@
         }
         function askPasswordAndAct() {
           var answer = prompt('Enter password:');
-          if (answer === PASSWORD) {
+          if (answer === ARSBPASSWORD) {
             window.location.href = archivesURL;
           } else {
             closeSite();
@@ -184,6 +184,7 @@
   </script>
 </body>
 </html>
+
 
 
 
